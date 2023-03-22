@@ -8,6 +8,7 @@ body{
 }
 li, a {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
     font-weight: 500;
     color: floralwhite;
     text-decoration: none;
@@ -21,34 +22,33 @@ header {
 .logo {
     cursor: pointer;
 }
-.nav__links {
-    list-style: none;
-}
-.nav__links li {
+.navlinks li {
     display: inline-block;
     padding: 0px 20px;
 }
-.nav__links li a {
+.navlinks li a {
     transition: all 0.3s ease 0s;
 }
-.nav__links li a:hover {
+.navlinks li a:hover {
     color: aquamarine;
-}
-div {
-    display: flex;
 }
 .items {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-    color: green;
+    color: white;
     text-align: center;
     margin: auto;
-    
 }
-
-.test li {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks {
+    list-style: none;
+    display: flex;
+  }
+.navextra li {
     display: flex;
     margin: auto;
-    margin-right:50px;
 }
